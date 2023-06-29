@@ -5,6 +5,14 @@ Demo notes.
 ## Environment 
 - https://killercoda.com/playgrounds/scenario/kubernetes
 
+
+## Kubesec check
+- 
+
+## Kyverno
+-
+
+
 ## Master thesis tool
 - run ONLY cluster check
 ```
