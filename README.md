@@ -14,6 +14,7 @@ Demo notes.
 
 ## Kyverno
 - deploy pod (OK) - `kubectl apply -f pods/default.yml`
+- try to modify filesystem - `kubectl exec -i -t <pod_name> -- /bin/bash`
 - install Kyverno - `kubectl create -f https://github.com/kyverno/kyverno/releases/download/v1.10.0/install.yaml`
     - for production setup use helm (replicas, ...)
 - apply policy - `kubectl apply -f kyverno/filesystem-is-read-only.yml`
