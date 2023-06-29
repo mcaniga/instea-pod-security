@@ -7,10 +7,12 @@ Demo notes.
 
 
 ## Kubesec check
-- 
+- install kubesec - `bash install-kubesec.sh`
+- print rules - `kubesec print-rules`
+- check manifest - `kubesec scan pods/default.yml`
 
 ## Kyverno
--
+- 
 
 
 ## Master thesis tool
